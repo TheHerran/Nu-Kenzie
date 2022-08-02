@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+h1 {
+    margin: auto 0;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid #E9ECEF;
+    border-radius: 5px;
+    padding: 0 15px 15px;
+}
+
+form>small {
+    color: #868E96;
+    width: 100%;
+    text-align: left;
+}
+
+form>label {
+    width: 40%;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+select {
+    background-color: #F8F9FA;
+    border: 0;
+    width: 45%;
+    border-radius: 5px;
+    padding: 16px 15px;
+
+}
+
+input {
+    width: 100%;
+    background-color: #F8F9FA;
+    border: 0;
+    padding: 16px 15px;
+    border-radius: 8px;
+}
+
+input[type=number] {
+    width: 35%;
+}
+
+form>button {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 13px 20px;
+    background-color: #FD377E;
+    border: 0;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+form>button:hover {
+    background-color: #E34981;
+
+}
+
+.totalMoneyBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #E9ECEF;
+    border-radius: 5px;
+    height: 60px;
+}
+
+.totalMoneyBox>h2 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.totalMoneyBox>small {
+    color: #343A40;
+    flex-basis: 100%;
+    text-align: left;
+}
+
+.totalMoneyBox>p {
+    margin: 0;
+    color: #FD377E;
+    font-weight: 700;
+}
+
+aside button:hover {
+    background-color: #343A40;
+    color: #ffffff;
+}
+
+.asideNav>div>h3 {
+    text-align: left;
+}
+
+.asideNav>div>nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+}
+
+.asideNav>div>nav>button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+li {
+    width: 100%;
+    padding: 0 0 0 5px;
+    border-radius: 10px;
+}
+
+li:hover {
+    box-shadow: 0 0 10px 5px #E9ECEF;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+    background-color: #F8F9FA;
+    height: 65px;
+    border-radius: 8px;
+}
+
+.cardContent>span {
+    color: #212529;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.delButton {
+    float: right;
+    border: 0;
+    flex-basis: 100%;
+    text-align: right;
+}
+
+.delIcon {
+    background-color: #E9ECEF;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.delIcon:hover {
+    background-color: #343A40;
+    color: #ffffff;
+}
+
+.cardContent>h3 {
+    margin: 0;
+    font-size: 1rem;
+    max-width: 70%;
+    text-align: left;
+}
+
+.cardContent>small {
+    flex-basis: 100%;
+    text-align: left;
+}
+
+@media screen and (min-width: 650px) {
+
+    form,
+    .totalMoneyBox {
+        width: 300px;
+    }
+}
